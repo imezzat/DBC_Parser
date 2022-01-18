@@ -1,0 +1,83 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+
+
+BO_ 2402396754 Msg_05231AA: 8 ADC
+ SG_ AD_CHK_05231AA : 59|4@0+ (1,0) [0|15] "-"  METER
+ SG_ AD_ALV_CNTR_05231AA : 61|2@0+ (1,0) [0|3] "-"  METER
+ SG_ AD_Q_L_L : 36|2@0+ (1,0) [0|3] "-"  METER
+ SG_ AD_Q_L_R : 38|2@0+ (1,0) [0|3] "-"  METER
+ SG_ AD_P_O_Y_R : 28|6@0- (0.2,0) [-6.4|6.2] "m"  METER
+ SG_ AD_P_O_X_R : 23|11@0+ (0.1,0) [0|204.7] "m"  METER
+ SG_ AD_P_O_L_L_R : 15|8@0- (0.025,-3) [-6.2|0.175] "m"  METER
+ SG_ AD_PO__L_R_R : 7|8@0- (0.025,3) [-0.2|6.175] "m"  METER
+
+BO_ 2209174880 Msg_0A5CE1327: 8 S
+ SG_ S_CHK_0A5CE1327 : 59|4@0+ (1,0) [0|15] ""  ADC
+ SG_ S_ALV_CNTR_0A5CE1327 : 61|2@0+ (1,0) [0|3] ""  ADC
+ SG_ S_C_Y_2 : 62|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_C_T_G_2 : 63|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_C_L_G_2 : 48|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_P_E_T_G_2 : 49|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_P_E_L_G_2 : 50|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_P_E_Y_2 : 51|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_T_E_L_G_2 : 52|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_T_E_XX_G_2 : 53|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_T_E_Y_2 : 54|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_S_SU_2 : 55|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_S_E_MC_2 : 40|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_S_ST_G_2 : 41|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_P_E_DEG_2 : 42|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_T_E_DEG_2 : 43|1@0+ (1,0) [0|1] ""  ADC
+ SG_ S_P_G_2 : 39|12@0+ (0.01196289,-24.5) [-24.5|24.48803455] "m/s2"  ADC
+ SG_ S_L_G_2 : 19|12@0+ (0.01196289,-24.5) [-24.5|24.48803455] "m/s2"  ADC
+ SG_ S_DEG_2 : 11|8@0+ (1,-103) [-103|152] "degC"  ADC
+ SG_ S_Y_2 : 7|12@0+ (0.06103516,-125) [-125|124.9389802] "deg/sec"  ADC
+
+BO_ 57 S_039: 3 S
+ SG_ S_CHECKSUM_039 : 19|4@0+ (1,0) [0|15] "-"  TEL,RVU,METER,ENG,ADC
+ SG_ S_ALIVE_COUNTER_039 : 21|2@0+ (1,0) [0|3] "-"  TEL,RVU,METER,ENG,ADC
+ SG_ S_MID_FRONT : 11|1@0+ (1,0) [0|1] "-"  RVU,ADC
+ SG_ S_FAILURE : 1|1@0+ (1,0) [0|1] "-"  TEL,RVU,METER,ADC
+ SG_ S_AIRBAG_DEPLOY : 3|1@0+ (1,0) [0|1] "-"  TEL,RVU,METER,ADC
+ SG_ S_CDS_FRONT : 7|1@0+ (1,0) [0|1] "-"  TEL,RVU,METER,ADC
+
+
+
+
+BA_ "GenMsgCycleTime" BO_ 2402396754 200;
+BA_ "GenMsgCycleTime" BO_ 2209174880 10;
+BA_ "GenMsgCycleTime" BO_ 57 40;
